@@ -1,0 +1,12 @@
+#codeSpan{
+    outline: none;
+}
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}

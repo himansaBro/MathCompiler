@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <input type="text" class="calculator-screen" id="calculator-screen" value="12+6(11/3)-10"/>
+
+        <div class="calculator-keys">
+            <button type="button" class="OpBtn operatorAdd" value="+" style="border-bottom-left-radius: 10px;">+</button>
+            <button type="button" class="OpBtn operatorMinus" value="-">-</button>
+            <button type="button" class="OpBtn operatorMultiply" value="*">&times;</button>
+            <button type="button" class="OpBtn operatorDivide" value="/">&divide;</button>
+            <button type="button" class="OpBtn operatorEqual" value="=" style="border-bottom-right-radius: 10px;">=</button>
+        </div>
+        <div id="answerBox">...</div>
+        <div id="flowBox"></div>
+
+    </div>
+    <script src="compiler.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
